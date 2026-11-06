@@ -1,0 +1,21 @@
+# Kompilacja i katalogi budowania
+build/
+bin/
+obj/
+out/
+
+# Pliki wykonywalne i binarne
+*.exe
+*.out
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# Pliki IDE
+.vscode/
+.vs/
+*.user
+.idea/
+*.sln.docstates
+
