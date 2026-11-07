@@ -67,7 +67,7 @@ Zaimplementuj literały użytkownika w `constexpr`:
 - dla czasu: `_s`, `_min` ($60\text{ s}$), `_h` ($3600\text{ s}$).
 
 Zaimplementuj operator dzielenia `Distance / Time` zwracający prędkość w km/h (`double`):
-$$\text{predkosc\_kmh} = \frac{\text{dystans w km}}{\text{czas w h}} = \frac{d.meters / 1000.0}{t.seconds / 3600.0}$$
+$$\text{prędkość [km/h]} = \frac{\text{dystans w km}}{\text{czas w h}} = \frac{d.meters / 1000.0}{t.seconds / 3600.0}$$
 
 W `main.cpp` sprawdź:
 
